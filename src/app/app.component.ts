@@ -44,22 +44,20 @@ export class AppComponent implements OnInit {
 			this.products = products;
 		});
 
-    this.carouselData = {
-      saleability: []
-    };
+    this.productService.getCarouselData().then(mockData => {
+      console.log('mockData', mockData);
+        for(let i = 0; i < 52; i++) {
+          this.carouselData.saleability.push({
+            dateFrom: mockData.saleability.dateFrom,
+            dateTo: mockData.saleability.dateTo,
+            values: mockData.saleability.values,
+            broadcastWeek: mockData.saleability.broadcastWeek,
+            composition: mockData.saleability.composition
+          });
+        }
+      }
+    )
 
-    // for(let i = 0; i < 52; i++) {
-    //   this.carouselData.saleability.push({
-    //     dateFrom: mockData.saleability.dateFrom,
-    //     dateTo: mockData.saleability.dateTo,
-    //     values: mockData.saleability.values,
-    //     broadcastWeek: mockData.saleability.broadcastWeek,
-    //     composition: mockData.saleability.composition
-    //   });
-    // }
-
-    // console.log('this.mockData.saleability.dateFrom', mockData);
-
+    console.log('this.carouselData',this.carouselData);
     }
-
 }

@@ -40,6 +40,6 @@
   }
 
   export interface CarouselData {
-    saleability: Saleability[];
+    saleability: Saleability;
   }
 
