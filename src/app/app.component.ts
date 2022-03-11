@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import * as mockData from 'src/assets/MOCK_DATA.json';
 
 import { ProductService } from './productservice';
 import { Product2 } from './product2';
@@ -8,15 +9,17 @@ import { Product2 } from './product2';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'demo-prodotto-pacchetto';
 
+export class AppComponent implements OnInit {
+
+  title = 'demo-prodotto-pacchetto';
+  public carouselData: any;
 
   products: Product2[] = [];
-	
+
 	responsiveOptions;
 
-	constructor(private productService: ProductService) { 
+	constructor(private productService: ProductService) {
 		this.responsiveOptions = [
             {
                 breakpoint: '1024px',
@@ -40,6 +43,23 @@ export class AppComponent {
 		this.productService.getProductsSmall().then(products => {
 			this.products = products;
 		});
+
+    this.carouselData = {
+      saleability: []
+    };
+
+    // for(let i = 0; i < 52; i++) {
+    //   this.carouselData.saleability.push({
+    //     dateFrom: mockData.saleability.dateFrom,
+    //     dateTo: mockData.saleability.dateTo,
+    //     values: mockData.saleability.values,
+    //     broadcastWeek: mockData.saleability.broadcastWeek,
+    //     composition: mockData.saleability.composition
+    //   });
+    // }
+
+    // console.log('this.mockData.saleability.dateFrom', mockData);
+
     }
 
 }
