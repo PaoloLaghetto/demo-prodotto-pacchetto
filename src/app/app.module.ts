@@ -13,6 +13,8 @@ import {InputNumberModule} from "primeng/inputnumber";
 import { ProductService } from './productservice';
 
 import {CarouselModule} from 'primeng/carousel';
+import {AccordionModule} from 'primeng/accordion';
+import {TableModule} from 'primeng/table';
 import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
 
@@ -29,6 +31,8 @@ import {ToastModule} from 'primeng/toast';
     AppRoutingModule,
 
     CarouselModule,
+    AccordionModule,
+    TableModule,
     ButtonModule,
     ToastModule,
     HttpClientModule,

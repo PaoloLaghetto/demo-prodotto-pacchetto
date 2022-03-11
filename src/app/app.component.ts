@@ -7,13 +7,14 @@ import { Product2 } from './product2';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css']//,
+  //encapsulation: ViewEncapsulation.None
 })
 
 export class AppComponent implements OnInit {
 
   title = 'demo-prodotto-pacchetto';
-  public carouselData: any;
+  public carouselData: any = {};
 
   products: Product2[] = [];
 
@@ -45,19 +46,22 @@ export class AppComponent implements OnInit {
 		});
 
     this.productService.getCarouselData().then(mockData => {
-      console.log('mockData', mockData);
-        for(let i = 0; i < 52; i++) {
-          this.carouselData.saleability.push({
-            dateFrom: mockData.saleability.dateFrom,
-            dateTo: mockData.saleability.dateTo,
-            values: mockData.saleability.values,
-            broadcastWeek: mockData.saleability.broadcastWeek,
-            composition: mockData.saleability.composition
-          });
-        }
+      console.log('getCarouselData - mockData', mockData);
+      this.carouselData.saleability = [];
+      for(let i = 0; i < 52; i++) {
+        this.carouselData.saleability.push({
+          dateFrom: mockData.saleability.dateFrom,
+          dateTo: mockData.saleability.dateTo,
+          values: mockData.saleability.values,
+          broadcastWeek: mockData.saleability.broadcastWeek,
+          composition: mockData.saleability.composition
+        });
       }
-    )
+      this.carouselData.saleability.forEach(
+        (item: any, index: number) => item.index = index + 1
+      )
+      console.log('getCarouselData - this.carouselData',this.carouselData);
+    })
+  }
 
-    console.log('this.carouselData',this.carouselData);
-    }
 }

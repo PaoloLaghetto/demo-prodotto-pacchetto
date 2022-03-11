@@ -3,12 +3,21 @@
   width: 500px;
 }
 
-.left{
-  padding: 10px;
-  float: left;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
-.right{
-  padding: 10px;
-  float: right;
+.left {
+  width: 50%;
+  height: 100vh;
+  background-color: green;
+  text-align: right;
+  color: white;
+}
+
+.right {
+  width: 50%;
+  color: green;
+  height: 100vh;
 }

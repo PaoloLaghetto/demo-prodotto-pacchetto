@@ -20,3 +20,14 @@
     width: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
 }
+
+:host::ng-deep .p-carousel .p-carousel-content .p-carousel-prev {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+:host::ng-deep .p-carousel .p-carousel-content .p-carousel-next {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+}
