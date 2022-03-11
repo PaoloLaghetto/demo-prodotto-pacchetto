@@ -1,0 +1,172 @@
+{
+    "validity": [
+        {
+            "dateFrom": "06/06/2021",
+            "dateTo": "19/06/2021",
+            "values": [
+                {
+                    "input1":75
+                },
+                {
+                    "input2":77
+                },
+                {
+                    "input3":18
+                },
+                {
+                    "input4":81
+                },
+                {
+                    "input5":88
+                },
+                {
+                    "input6":53
+                },
+                {
+                    "input7":39
+                },
+                {
+                    "input8":10
+                },
+                {
+                    "input9":8
+                },
+                {
+                    "input10":100
+                },
+                {
+                    "input11":1
+                },
+                {
+                    "input12":34
+                },
+                {
+                    "input13":2
+                },
+                {
+                    "input14":45
+                },
+                {
+                    "input15":88
+                },
+                {
+                    "input16":84
+                }
+            ],
+            "broadcastWeek": [
+                {
+                    "dateFrom": "06/06/2021",
+                    "dateTo": "12/06/2021",
+                    "values": [
+                        {
+                            "input1":75
+                        },
+                        {
+                            "input2":77
+                        },
+                        {
+                            "input3":18
+                        },
+                        {
+                            "input4":81
+                        },
+                        {
+                            "input5":88
+                        },
+                        {
+                            "input6":53
+                        },
+                        {
+                            "input7":39
+                        },
+                        {
+                            "input8":10
+                        },
+                        {
+                            "input9":8
+                        },
+                        {
+                            "input10":100
+                        },
+                        {
+                            "input11":1
+                        },
+                        {
+                            "input12":34
+                        },
+                        {
+                            "input13":2
+                        },
+                        {
+                            "input14":45
+                        },
+                        {
+                            "input15":88
+                        },
+                        {
+                            "input16":84
+                        }
+                    ]
+                }
+            ],
+            "composition": [
+                {
+                    "durata": {
+                        "input":75
+                    },
+                    "spot": {
+                        "input1":75
+                    },
+                    "grp": {
+                        "input1":75
+                    },
+                    "listino": {
+                        "input1":75
+                    }
+                },
+                {
+                    "durata": {
+                        "input":77
+                    },
+                    "spot": {
+                        "input":77
+                    },
+                    "grp": {
+                        "input":77
+                    },
+                    "listino": {
+                        "input":77
+                    }
+                },
+                {
+                    "durata": {
+                        "input":18
+                    },
+                    "spot": {
+                        "input":45
+                    },
+                    "grp": {
+                        "input":98
+                    },
+                    "listino": {
+                        "input":23
+                    }
+                },
+                {
+                    "durata": {
+                        "input":11
+                    },
+                    "spot": {
+                        "input":34
+                    },
+                    "grp": {
+                        "input":56
+                    },
+                    "listino": {
+                        "input":81
+                    }
+                }
+            ]
+        }
+    ]
+}

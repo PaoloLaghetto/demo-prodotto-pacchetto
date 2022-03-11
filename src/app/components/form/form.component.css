@@ -1,0 +1,14 @@
+.form-container{
+  height: 400px;
+  width: 500px;
+}
+
+.left{
+  padding: 10px;
+  float: left;
+}
+
+.right{
+  padding: 10px;
+  float: right;
+}
