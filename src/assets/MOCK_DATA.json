@@ -5,52 +5,52 @@
             "dateTo": "19/06/2021",
             "values": [
                 {
-                    "input1":75
+                    "input":75
                 },
                 {
-                    "input2":77
+                    "input":77
                 },
                 {
-                    "input3":18
+                    "input":18
                 },
                 {
-                    "input4":81
+                    "input":81
                 },
                 {
-                    "input5":88
+                    "input":88
                 },
                 {
-                    "input6":53
+                    "input":53
                 },
                 {
-                    "input7":39
+                    "input":39
                 },
                 {
-                    "input8":10
+                    "input":10
                 },
                 {
-                    "input9":8
+                    "input":8
                 },
                 {
-                    "input10":100
+                    "input":100
                 },
                 {
-                    "input11":1
+                    "input":1
                 },
                 {
-                    "input12":34
+                    "input":34
                 },
                 {
-                    "input13":2
+                    "input":2
                 },
                 {
-                    "input14":45
+                    "input":45
                 },
                 {
-                    "input15":88
+                    "input":88
                 },
                 {
-                    "input16":84
+                    "input":84
                 }
             ],
             "broadcastWeek": [
@@ -59,52 +59,52 @@
                     "dateTo": "12/06/2021",
                     "values": [
                         {
-                            "input1":75
+                            "input":75
                         },
                         {
-                            "input2":77
+                            "input":77
                         },
                         {
-                            "input3":18
+                            "input":18
                         },
                         {
-                            "input4":81
+                            "input":81
                         },
                         {
-                            "input5":88
+                            "input":88
                         },
                         {
-                            "input6":53
+                            "input":53
                         },
                         {
-                            "input7":39
+                            "input":39
                         },
                         {
-                            "input8":10
+                            "input":10
                         },
                         {
-                            "input9":8
+                            "input":8
                         },
                         {
-                            "input10":100
+                            "input":100
                         },
                         {
-                            "input11":1
+                            "input":1
                         },
                         {
-                            "input12":34
+                            "input":34
                         },
                         {
-                            "input13":2
+                            "input":2
                         },
                         {
-                            "input14":45
+                            "input":45
                         },
                         {
-                            "input15":88
+                            "input":88
                         },
                         {
-                            "input16":84
+                            "input":84
                         }
                     ]
                 }
@@ -115,13 +115,13 @@
                         "input":75
                     },
                     "spot": {
-                        "input1":75
+                        "input":75
                     },
                     "grp": {
-                        "input1":75
+                        "input":75
                     },
                     "listino": {
-                        "input1":75
+                        "input":75
                     }
                 },
                 {
