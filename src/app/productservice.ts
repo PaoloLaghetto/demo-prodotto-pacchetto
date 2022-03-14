@@ -2,13 +2,18 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { Product } from './product';
-import {Carousel} from "primeng/carousel";
 import {CarouselData} from "./CarouselData";
+import {BEData} from "./BEData";
+import {BehaviorSubject, Subject} from "rxjs";
 
 @Injectable()
 export class ProductService {
 
     status: string[] = ['OUTOFSTOCK', 'INSTOCK', 'LOWSTOCK'];
+
+    private initialBufferPage: number = 0;
+    private bufferPage = new BehaviorSubject<number>(this.initialBufferPage);
+    public bufferPage$ = this.bufferPage.asObservable();
 
     productNames: string[] = [
         "Bamboo Watch",
@@ -45,6 +50,10 @@ export class ProductService {
 
     constructor(private http: HttpClient) { }
 
+  setBufferPage(page: number){
+      this.bufferPage.next(page);
+  }
+
   getCarouselData() {
     return this.http.get<any>('assets/MOCK_DATA.json')
       .toPromise()
@@ -55,7 +64,7 @@ export class ProductService {
   getBEData() {
     return this.http.get<any>('assets/MOCK_DATA_2.json')
       .toPromise()
-      .then(res => <CarouselData>res)
+      .then(res => <BEData>res)
       .then(data => { return data; });
   }
 
