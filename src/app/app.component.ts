@@ -15,6 +15,7 @@ export class AppComponent implements OnInit {
 
   title = 'demo-prodotto-pacchetto';
   public carouselData: any = {};
+  public beData: any;
 
   products: Product2[] = [];
 
@@ -44,6 +45,11 @@ export class AppComponent implements OnInit {
 		this.productService.getProductsSmall().then(products => {
 			this.products = products;
 		});
+
+    this.productService.getBEData().then(beData => {
+      this.beData = beData;
+      console.log('beData', beData);
+    });
 
     this.productService.getCarouselData().then(mockData => {
       console.log('getCarouselData - mockData', mockData);

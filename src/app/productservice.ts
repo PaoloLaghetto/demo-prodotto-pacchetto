@@ -52,6 +52,13 @@ export class ProductService {
       .then(data => { return data; });
   }
 
+  getBEData() {
+    return this.http.get<any>('assets/MOCK_DATA_2.json')
+      .toPromise()
+      .then(res => <CarouselData>res)
+      .then(data => { return data; });
+  }
+
     getProductsSmall() {
         return this.http.get<any>('assets/products-small.json')
         .toPromise()
