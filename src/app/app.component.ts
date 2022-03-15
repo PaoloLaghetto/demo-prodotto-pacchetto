@@ -1,4 +1,4 @@
-import {ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {ChangeDetectorRef, Component, OnInit, ViewChild} from '@angular/core';
 import * as mockData from 'src/assets/MOCK_DATA.json';
 
 import {ProductService} from './productservice';
@@ -13,6 +13,8 @@ import {BEData, SellingPeriod} from "./BEData";
 })
 
 export class AppComponent implements OnInit {
+
+  @ViewChild('carousel') carousel: any;
 
   title = 'demo-prodotto-pacchetto';
   products: Product2[] = [];
@@ -137,14 +139,15 @@ export class AppComponent implements OnInit {
   private recreateCarousel(){
     setTimeout(() => {
       this.showCarousel = false;
-    },100);
+    },80);
     setTimeout(() => {
       this.showCarousel = true;
-    },101);
+    },81);
   }
 
   public onPage(event: any) {
     const newPage = event.page;
+
     if(newPage >= 0) {
         if(this.bufferPage <= newPage) {
           this.validityStartIndex++;
@@ -155,8 +158,11 @@ export class AppComponent implements OnInit {
         }
         this.recreateCarousel();
       this.productService.setBufferPage(1);
-
-      // this.ref.detectChanges();
+      this.ref.detectChanges();
     }
+  }
+
+  changeBufferPage() {
+    this.productService.setBufferPage(1);
   }
 }

@@ -8,28 +8,29 @@
   {{"EndIndex" + validityEndIndex}}
   {{"BufferLength:" + bufferBWLength}}
 
-  <p-carousel *ngIf="showCarousel" [value]="carouselBuffer" [page]="bufferPage" [numVisible]="3" [numScroll]="1" [circular]="false" (onPage)="onPage($event)">
+  <button (click)="changeBufferPage()">Set Page 1</button>
+  <p-carousel #carousel *ngIf="showCarousel" [value]="carouselBuffer" [page]="bufferPage" [numVisible]="3" [numScroll]="1" [circular]="false" (onPage)="onPage($event)">
     <ng-template let-vendibility pTemplate="item">
       <p-accordion>
         <p-accordionTab header="Header I" [selected]="true">
           {{vendibility.id}}
           <app-form *ngFor="let subPeriod of vendibility.subPeriods"
-            [value1]="subPeriod.value"
-            [value2]="subPeriod.value"
-            [value3]="subPeriod.value"
-            [value4]="subPeriod.value"
-            [value5]="subPeriod.value"
-            [value6]="subPeriod.value"
-            [value7]="subPeriod.value"
-            [value8]="subPeriod.value"
-            [value9]="subPeriod.value"
-            [value10]="subPeriod.value"
-            [value11]="subPeriod.value"
-            [value12]="subPeriod.value"
-            [value13]="subPeriod.value"
-            [value14]="subPeriod.value"
-            [value15]="subPeriod.value"
-            [value16]="subPeriod.value"></app-form>
+            [(value1)]="subPeriod.value"
+            [(value2)]="subPeriod.value"
+            [(value3)]="subPeriod.value"
+            [(value4)]="subPeriod.value"
+            [(value5)]="subPeriod.value"
+            [(value6)]="subPeriod.value"
+            [(value7)]="subPeriod.value"
+            [(value8)]="subPeriod.value"
+            [(value9)]="subPeriod.value"
+            [(value10)]="subPeriod.value"
+            [(value11)]="subPeriod.value"
+            [(value12)]="subPeriod.value"
+            [(value13)]="subPeriod.value"
+            [(value14)]="subPeriod.value"
+            [(value15)]="subPeriod.value"
+            [(value16)]="subPeriod.value"></app-form>
         </p-accordionTab>
 <!--        <p-accordionTab header="Header II" [selected]="true">-->
 <!--          <app-form-->

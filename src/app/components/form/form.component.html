@@ -4,11 +4,11 @@
     <div class="left">
       <div class="p-field">
         <label>value1</label>
-        <p-inputNumber inputId="value1" [(ngModel)]="value1"></p-inputNumber>
+        <p-inputNumber inputId="value1" [(ngModel)]="value1" (ngModelChange)="handleValue1Change()"></p-inputNumber>
       </div>
       <div class="p-field">
         <label>value2</label>
-        <p-inputNumber [(ngModel)]="value2"></p-inputNumber>
+        <p-inputNumber [(ngModel)]="value2" (ngModelChange)="handleValue2Change()"></p-inputNumber>
       </div>
       <div class="p-field">
         <label>value3</label>
