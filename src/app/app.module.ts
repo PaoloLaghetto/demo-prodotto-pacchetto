@@ -1,22 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormComponent } from './components/form/form.component';
 import {InputNumberModule} from "primeng/inputnumber";
-
 import { ProductService } from './productservice';
-
-import {CarouselModule} from 'primeng/carousel';
 import {AccordionModule} from 'primeng/accordion';
 import {TableModule} from 'primeng/table';
 import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
+import {CarouselModule} from "ngx-owl-carousel-o";
 
 @NgModule({
   declarations: [
@@ -29,14 +25,15 @@ import {ToastModule} from 'primeng/toast';
     InputNumberModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-
     CarouselModule,
     AccordionModule,
     TableModule,
     ButtonModule,
     ToastModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    CarouselModule,
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]

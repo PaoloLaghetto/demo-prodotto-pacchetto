@@ -3,35 +3,59 @@
 </div>
 
 <div class="content" role="main">
+  <owl-carousel-o [options]="customOptions" (translated)="handleTranslated($event)">
+    <ng-container *ngFor="let sellingPeriod of carouselBuffer">
+      <ng-template carouselSlide>
+              <p-accordion>
+                <p-accordionTab header="Header I" [selected]="true">
+                  ID = {{sellingPeriod.id}}
+                  <app-form *ngFor="let subPeriod of sellingPeriod.subPeriods"
+                    [(value1)]="subPeriod.value"
+                    [(value2)]="subPeriod.value"
+                    [(value3)]="subPeriod.value"
+                    [(value4)]="subPeriod.value"
+                    [(value5)]="subPeriod.value"
+                    [(value6)]="subPeriod.value"
+                    [(value7)]="subPeriod.value"
+                    [(value8)]="subPeriod.value"
+                    [(value9)]="subPeriod.value"
+                    [(value10)]="subPeriod.value"
+                    [(value11)]="subPeriod.value"
+                    [(value12)]="subPeriod.value"
+                    [(value13)]="subPeriod.value"
+                    [(value14)]="subPeriod.value"
+                    [(value15)]="subPeriod.value"
+                    [(value16)]="subPeriod.value"></app-form>
+                </p-accordionTab>
+              </p-accordion>
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
 
-  {{"StartIndex:" + validityStartIndex}}
-  {{"EndIndex" + validityEndIndex}}
-  {{"BufferLength:" + bufferBWLength}}
-
-  <button (click)="changeBufferPage()">Set Page 1</button>
-  <p-carousel #carousel *ngIf="showCarousel" [value]="carouselBuffer" [page]="bufferPage" [numVisible]="3" [numScroll]="1" [circular]="false" (onPage)="onPage($event)">
-    <ng-template let-vendibility pTemplate="item">
-      <p-accordion>
-        <p-accordionTab header="Header I" [selected]="true">
-          {{vendibility.id}}
-          <app-form *ngFor="let subPeriod of vendibility.subPeriods"
-            [(value1)]="subPeriod.value"
-            [(value2)]="subPeriod.value"
-            [(value3)]="subPeriod.value"
-            [(value4)]="subPeriod.value"
-            [(value5)]="subPeriod.value"
-            [(value6)]="subPeriod.value"
-            [(value7)]="subPeriod.value"
-            [(value8)]="subPeriod.value"
-            [(value9)]="subPeriod.value"
-            [(value10)]="subPeriod.value"
-            [(value11)]="subPeriod.value"
-            [(value12)]="subPeriod.value"
-            [(value13)]="subPeriod.value"
-            [(value14)]="subPeriod.value"
-            [(value15)]="subPeriod.value"
-            [(value16)]="subPeriod.value"></app-form>
-        </p-accordionTab>
+<!--  <button (click)="changeBufferPage()">Set Page 1</button>-->
+<!--  <p-carousel #carousel *ngIf="showCarousel" [value]="carouselBuffer" [page]="bufferPage" [numVisible]="3" [numScroll]="1" [circular]="false" (onPage)="onPage($event)">-->
+<!--    <ng-template let-vendibility pTemplate="item">-->
+<!--      <p-accordion>-->
+<!--        <p-accordionTab header="Header I" [selected]="true">-->
+<!--          {{vendibility.id}}-->
+<!--          <app-form *ngFor="let subPeriod of vendibility.subPeriods"-->
+<!--            [(value1)]="subPeriod.value"-->
+<!--            [(value2)]="subPeriod.value"-->
+<!--            [(value3)]="subPeriod.value"-->
+<!--            [(value4)]="subPeriod.value"-->
+<!--            [(value5)]="subPeriod.value"-->
+<!--            [(value6)]="subPeriod.value"-->
+<!--            [(value7)]="subPeriod.value"-->
+<!--            [(value8)]="subPeriod.value"-->
+<!--            [(value9)]="subPeriod.value"-->
+<!--            [(value10)]="subPeriod.value"-->
+<!--            [(value11)]="subPeriod.value"-->
+<!--            [(value12)]="subPeriod.value"-->
+<!--            [(value13)]="subPeriod.value"-->
+<!--            [(value14)]="subPeriod.value"-->
+<!--            [(value15)]="subPeriod.value"-->
+<!--            [(value16)]="subPeriod.value"></app-form>-->
+<!--        </p-accordionTab>-->
 <!--        <p-accordionTab header="Header II" [selected]="true">-->
 <!--          <app-form-->
 <!--            [value1]="product.values[0].input"-->
@@ -104,10 +128,9 @@
 <!--            </ng-template>-->
 <!--          </p-table>-->
 <!--        </p-accordionTab>-->
-      </p-accordion>
-
-    </ng-template>
-  </p-carousel>
+<!--      </p-accordion>-->
+<!--    </ng-template>-->
+<!--  </p-carousel>-->
 
 </div>
 
