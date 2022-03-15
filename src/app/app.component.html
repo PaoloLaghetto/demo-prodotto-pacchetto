@@ -3,7 +3,7 @@
 </div>
 
 <div class="content" role="main">
-  <owl-carousel-o [options]="customOptions" (translated)="handleTranslated($event)">
+  <owl-carousel-o [options]="customOptions" (change)="handleTranslated($event)">
     <ng-container *ngFor="let sellingPeriod of carouselBuffer">
       <ng-template carouselSlide>
               <p-accordion>

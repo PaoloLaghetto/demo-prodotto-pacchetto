@@ -32,8 +32,11 @@ export class AppComponent implements OnInit {
     dots: false,
     navSpeed: 100,
     navText: ['&#8249', '&#8250;'],
-    // stagePadding: 200,
     items: 2.5,
+    nav: true,
+    autoWidth: false,
+    startPosition: this.validityStartIndex === 0 ? 0 : 1,
+    // stagePadding: 200,
     // responsive: {
     //   0: {
     //     items: 1
@@ -45,8 +48,6 @@ export class AppComponent implements OnInit {
     //     items: 3
     //   }
     // },
-    nav: true,
-    autoWidth: false,
   };
 
   dynamicSlides = [
@@ -203,9 +204,9 @@ export class AppComponent implements OnInit {
 
   handleTranslated($event: SlidesOutputData) {
     // console.log('handleTranslated', $event);
-    const startPosition = $event.startPosition ? $event.startPosition : -1 ;
+    const startPosition = ($event.startPosition === 0 || $event.startPosition) ? $event.startPosition : -1 ;
 
-    if(startPosition >= 0) {
+    if(startPosition > 0) {
       if(this.bufferPage <= startPosition) {
         this.validityStartIndex++;
         this.fillBufferNext();
@@ -213,8 +214,7 @@ export class AppComponent implements OnInit {
         this.validityEndIndex--;
         this.fillBufferPrev();
       }
-      this.recreateCarousel();
-      this.productService.setBufferPage(1);
+      this.productService.setBufferPage(startPosition);
     }
   }
 }
