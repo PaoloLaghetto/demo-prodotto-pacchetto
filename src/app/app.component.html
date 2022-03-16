@@ -3,6 +3,89 @@
 </div>
 
 <div class="content" role="main">
+  <!-- Custom Carousel - start -->
+  <div id="pr_id_1" class="p-carousel p-component p-carousel-horizontal">
+    <button (click)="cCarouselLeft($event)">&lt;</button> - <button (click)="cCarouselNone($event)">Reset</button> - <button (click)="cCarouselRight($event)">&gt;</button><br>
+    <!---- >
+    <button class="btnLeft">Click me</button> - <button class="btnRight">Click me</button><br><!-- IE7+ :focus :active :checked -- >
+    <label for="iLeft">&lt;</label><input id="iLeft" class="iLeft visually-hidden" type="checkbox"> - <label for="iRight">&gt;</label><input id="iRight" class="iRight visually-hidden" type="checkbox"><br><!-- IE9+ :checked -->
+    <!---->
+    <div class="p-carousel-items-content">
+      <div class="p-carousel-items-container transition-default">
+        <ng-container *ngFor="let sellingPeriod of carouselBuffer">
+          <div class="p-carousel-item">
+            <p-accordion>
+              <p-accordionTab header="Header I" [selected]="true">
+                ID = {{sellingPeriod.id}}
+                <app-form *ngFor="let subPeriod of sellingPeriod.subPeriods"
+                  [(value1)]="subPeriod.value"
+                  [(value2)]="subPeriod.value"
+                  [(value3)]="subPeriod.value"
+                  [(value4)]="subPeriod.value"
+                  [(value5)]="subPeriod.value"
+                  [(value6)]="subPeriod.value"
+                  [(value7)]="subPeriod.value"
+                  [(value8)]="subPeriod.value"
+                  [(value9)]="subPeriod.value"
+                  [(value10)]="subPeriod.value"
+                  [(value11)]="subPeriod.value"
+                  [(value12)]="subPeriod.value"
+                  [(value13)]="subPeriod.value"
+                  [(value14)]="subPeriod.value"
+                  [(value15)]="subPeriod.value"
+                  [(value16)]="subPeriod.value"></app-form>
+              </p-accordionTab>
+            </p-accordion>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <style>
+  .p-component, .p-component * {
+      box-sizing: border-box;
+  }
+  .p-carousel-items-content {
+      overflow: hidden;
+      width: 100%;
+  }
+  #pr_id_1 .p-carousel-item {
+      flex: 1 0 33.333333333333336%;
+  }
+  .p-carousel-items-container {
+      display: flex;
+      flex-direction: row;
+  }
+  .visually-hidden {
+      position: absolute;
+      left: -100vw;
+      /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
+  }
+  </style>
+  <!---->
+  <style>
+  .transition-default {
+    transform: translate3d(0%, 0px, 0px);
+    transition: transform 200ms !important;
+    transition-timing-function: unset !important;
+    transition-delay: 0s !important;
+  }
+  .transition-none {
+    transition: transform 0ms !important;
+  }
+  .transition-left {
+    transform: translate3d(50%, 0px, 0px);
+    background-color: blue;
+  }
+  .transition-right {
+    transform: translate3d(-50%, 0px, 0px);
+    background-color: purple;
+  }
+  </style>
+  <!-- Custom Carousel - end -->
+
+  <!---- >
   <owl-carousel-o [options]="customOptions" (change)="handleTranslated($event)">
     <ng-container *ngFor="let sellingPeriod of carouselBuffer">
       <ng-template carouselSlide>
@@ -31,6 +114,7 @@
       </ng-template>
     </ng-container>
   </owl-carousel-o>
+  <!---->
 
 <!--  <button (click)="changeBufferPage()">Set Page 1</button>-->
 <!--  <p-carousel #carousel *ngIf="showCarousel" [value]="carouselBuffer" [page]="bufferPage" [numVisible]="3" [numScroll]="1" [circular]="false" (onPage)="onPage($event)">-->

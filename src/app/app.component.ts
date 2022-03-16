@@ -107,6 +107,96 @@ export class AppComponent implements OnInit {
     ];
   }
 
+  // Custom Carousel - start
+
+  useStyleInline: boolean = false;
+
+  cCarouselCalculate() {  // Todo: da implementare
+    let boxLength: number = 5;
+    let subBoxLength: number = 2;
+    let boxWidth = this.cCarouselGetWidth(null);
+  }
+
+  cCarouselGetElementByClass(className: string) {
+    //const div = document.getElementById("ab");
+    const divs = document.getElementsByClassName(className);
+    let div;
+    if (divs && divs.length) {
+      div = divs[0] as HTMLDivElement;
+    }
+    return div;
+  }
+
+  cCarouselGetClassListByClass(className: string) {
+    //const div = document.getElementById("ab");
+    const div = this.cCarouselGetElementByClass(className);
+    let classes;
+    if (div) {
+      classes = div.classList;
+    }
+    return classes;
+  }
+
+  cCarouselGetWidth($event: any) {
+    const el = this.cCarouselGetElementByClass('p-carousel-items-container');
+    let clientWidth;
+    if (el) {
+      clientWidth = el.clientWidth
+    }
+    return clientWidth;
+  }
+
+  cCarouselLeft($event: any) {
+    //transform: translate3d(50%, 0px, 0px);
+    const classes = this.cCarouselGetClassListByClass('transition-default');
+    if (classes) {
+      classes.remove("transition-none");
+      if (!this.useStyleInline) {
+        classes.remove("transition-right");
+        classes.add("transition-left");
+      } else {
+        const el = this.cCarouselGetElementByClass('p-carousel-items-container');
+        if (el) {
+          el.style.transform = 'translate3d(50%, 0px, 0px)';
+        }
+      }
+    }
+  }
+  cCarouselRight($event: any) {
+    //transform: translate3d(-50%, 0px, 0px);
+    const classes = this.cCarouselGetClassListByClass('transition-default');
+    if (classes) {
+      classes.remove("transition-none");
+      if (!this.useStyleInline) {
+        classes.remove("transition-left");
+        classes.add("transition-right");
+      } else {
+        const el = this.cCarouselGetElementByClass('p-carousel-items-container');
+        if (el) {
+          el.style.transform = 'translate3d(-50%, 0px, 0px)';
+        }
+      }
+    }
+  }
+
+  cCarouselNone($event: any) {
+    const classes = this.cCarouselGetClassListByClass('transition-default');
+    if (classes) {
+      classes.add("transition-none");
+      if (!this.useStyleInline) {
+        classes.remove("transition-left");
+        classes.remove("transition-right");
+      } else {
+        const el = this.cCarouselGetElementByClass('p-carousel-items-container');
+        if (el) {
+          el.style.transform = '';
+        }
+      }
+    }
+  }
+
+  // Custom Carousel - end
+
   ngOnInit() {
 
     this.productService.getBEData().then(beData => {
