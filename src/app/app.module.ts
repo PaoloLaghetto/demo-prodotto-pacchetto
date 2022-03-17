@@ -13,11 +13,13 @@ import {TableModule} from 'primeng/table';
 import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
 import {CarouselModule} from "ngx-owl-carousel-o";
+import { CompositionComponent } from './components/composition/composition.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent
+    FormComponent,
+    CompositionComponent
   ],
   imports: [
     BrowserModule,

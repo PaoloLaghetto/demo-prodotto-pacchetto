@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {FormData} from "./FormData";
 
 @Component({
   selector: 'app-form',

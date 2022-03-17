@@ -1,0 +1,2030 @@
+{
+	"id": "string (encrypted)",
+	"sellingPeriods": [
+		{
+			"id" : "1",
+			"subPeriods": [
+				{
+					"id": "subPeriods_1",
+					"components": [
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				},
+				{
+					"id": "subPeriods_2",
+					"components": [
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "1",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "2",
+			"subPeriods": [
+				{
+					"id": "subPeriods_1",
+					"components": [
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				},
+				{
+					"id": "subPeriods_2",
+					"components": [
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "2",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "3",
+			"subPeriods": [
+				{
+					"id": "subPeriods_1",
+					"components": [
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_1",
+							"id": "1.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				},
+				{
+					"id": "subPeriods_2",
+					"components": [
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.1",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.2",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.3",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.4",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.5",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.6",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.7",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.8",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.9",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						},
+						{
+							"sellingPeriosId": "3",
+							"subPeriodId": "subPeriods_2",
+							"id": "2.10",
+							"channel": {
+								"id": "C5",
+								"code": "string",
+								"description": "canale5"
+							},
+							"logicalEnvironment": {
+								"id": "Forum",
+								"code": "string",
+								"description": "Forum"
+							},
+							"stdProduct": {
+								"id": "100",
+								"code": "string",
+								"description": "asdfghjkl"
+							},
+							"partitionType": {
+								"id": "100",
+								"code": "string",
+								"description": "ertyuio"
+							},
+							"positionType": {
+								"id": "456",
+								"code": "string",
+								"description": "zxcvbnm"
+							},
+							"length": 20,
+							"noOfSpots": 10,
+							"rateCard": 5
+						}
+					]
+				}
+			]
+		}
+	]
+}
