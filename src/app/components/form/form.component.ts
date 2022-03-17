@@ -45,6 +45,7 @@ export class FormComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log();
   }
 
   handleValue1Change() {
