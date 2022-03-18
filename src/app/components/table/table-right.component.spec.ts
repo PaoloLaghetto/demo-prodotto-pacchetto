@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PuffoBluComponent } from './puffo-blu.component';
+import { TableRightComponent } from './table-right.component';
 
-describe('PuffoBluComponent', () => {
-  let component: PuffoBluComponent;
-  let fixture: ComponentFixture<PuffoBluComponent>;
+describe('TableRightComponent', () => {
+  let component: TableRightComponent;
+  let fixture: ComponentFixture<TableRightComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PuffoBluComponent ]
+      declarations: [ TableRightComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PuffoBluComponent);
+    fixture = TestBed.createComponent(TableRightComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

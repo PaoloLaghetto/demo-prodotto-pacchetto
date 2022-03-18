@@ -1,0 +1,116 @@
+component: pp-composition-table<br>
+<br><br>aa1<br>
+<table *ngIf="true">
+  <thead>
+    <tr>
+      <th>Durata</th>
+      <th>Spot</th>
+      <th>Listino</th>
+      <th>GRP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let compositionRow of compositionRows">
+      <td>
+        <div class="p-field">
+          {{compositionRow.length}}
+        </div>
+      </td>
+      <td>
+        <div class="p-field">
+          {{compositionRow.noOfSpots}}
+        </div>
+      </td>
+      <td>
+        <div class="p-field">
+          {{compositionRow.rateCard}}
+        </div>
+      </td>
+      <td>
+        <div class="p-field">
+          {{compositionRow.rateCard}}
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br><br>aa2<br>
+
+<!---- >
+<div *ngFor="let compositionRow of compositionRows; trackBy: trackById">
+</div>
+<!---->
+
+  <br><br>cc<br><p-table *ngIf="false" [value]="compositionRows" [rowTrackBy]="trackByFunction">
+    <ng-template pTemplate="header">
+      <tr>
+        <th>Durata</th>
+        <th>Spot</th>
+        <th>Listino</th>
+        <th>GRP</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-compositionRow>
+      <tr>
+        <td>
+          <!--{{compositionRow.length}}-->
+          <div class="p-field">
+            <!--<label>Durata</label>-->
+            <p-inputNumber [(ngModel)]="compositionRow.length" [disabled]="true"></p-inputNumber>
+          </div>
+        </td>
+        <td>
+          <!--{{compositionRow.noOfSpots}}-->
+          <div class="p-field">
+            <!--<label>Durata</label>-->
+            <p-inputNumber [(ngModel)]="compositionRow.noOfSpots" [disabled]="true"></p-inputNumber>
+          </div>
+        </td>
+        <td>
+          <!--{{compositionRow.rateCard}}-->
+          <div class="p-field">
+            <!--<label>Durata</label>-->
+            <p-inputNumber [(ngModel)]="compositionRow.rateCard" [disabled]="true"></p-inputNumber>
+          </div>
+        </td>
+        <td>
+          <!--{{compositionRow.rateCard}}-->
+          <div class="p-field">
+            <!--<label>Durata</label>-->
+            <p-inputNumber [(ngModel)]="compositionRow.rateCard" [disabled]="true"></p-inputNumber>
+          </div>
+        </td>
+      </tr>
+    </ng-template>
+    <!---- >
+    <app-table-right *ngFor="let subPeriod of sellingPeriod.subPeriods"
+      [(value1)]="subPeriod.value"
+      [(value2)]="subPeriod.value"
+      [(value3)]="subPeriod.value"
+      [(value4)]="subPeriod.value"
+      [(value5)]="subPeriod.value"
+      [(value6)]="subPeriod.value"
+      [(value7)]="subPeriod.value"
+      [(value8)]="subPeriod.value"
+      [(value9)]="subPeriod.value"
+      [(value10)]="subPeriod.value"
+      [(value11)]="subPeriod.value"
+      [(value12)]="subPeriod.value"
+      [(value13)]="subPeriod.value"
+      [(value14)]="subPeriod.value"
+      [(value15)]="subPeriod.value"
+      [(value16)]="subPeriod.value"
+    >
+    </app-table-right>
+    <!---->
+  </p-table>
+  <style>
+    .p-field {
+      border: 1px solid gray;
+      padding: 0 10px;
+      width: 100px;
+      min-width: 100px;
+      text-align: center;
+    }
+  </style>
+  <br><br>tt<br>

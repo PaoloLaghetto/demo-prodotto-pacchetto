@@ -1,0 +1,33 @@
+component: pp-carousel-box<br>
+<div *ngFor="let subPeriod of subPeriods; trackBy: trackById">
+  <pp-subperiod-section [subPeriodId]="subPeriod.id"></pp-subperiod-section>
+  <br><br>aa<br>
+  <!---- ><pp-subperiod-section></pp-subperiod-section><!-- pp-subperiod -->
+  <pp-composition-table [compositionRows]="subPeriod.components"></pp-composition-table>
+  <br><br>zz<br>
+</div>
+<style>
+:host::ng-deep pp-composition-table {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid purple;
+}
+:host::ng-deep p-table {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+#pr_id_1 .p-carousel-item {
+    flex: 1 0 33.333333333333336%;
+}
+.p-carousel-items-container {
+    display: flex;
+    flex-direction: row;
+}
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+    /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
+}
+</style>

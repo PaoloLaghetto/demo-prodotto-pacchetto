@@ -28,7 +28,7 @@ export interface PositionType {
   description: string;
 }
 
-export interface CompositionComponent {
+export interface PPCompositionTabelComponent {
   sellingPeriosId: string;
   subPeriodId: string;
   id: string;
@@ -44,7 +44,7 @@ export interface CompositionComponent {
 
 export interface SubPeriod {
   id: string;
-  components: CompositionComponent[];
+  components: PPCompositionTabelComponent[];
 }
 
 export interface SellingPeriod {

@@ -4,6 +4,7 @@ import {ProductService} from './productservice';
 import {Product2} from './product2';
 import {SellingPeriod} from "./BEData";
 import {Matriosca} from "./CompositionData";
+import { PPCompositionTabelComponent } from './components/pp-composition-table/pp-composition-table.component';
 
 @Component({
   selector: 'app-root',
@@ -220,9 +221,77 @@ export class AppComponent implements OnInit {
       this.bufferPage = page;
     });
 
-    this.productService.getMatrioscaData().then( (matriosca: Matriosca) => {
+    // this.productService.getMatrioscaData().then((matriosca: Matriosca) => {
+    //   this.matriosca = matriosca;
+    // });
+
+    this.productService.getMatrioscaDataObservable();
+    this.productService.matriosca$.subscribe((matriosca: Matriosca) => {
       this.matriosca = matriosca;
     });
+  }
+
+  addComponentRow($event: any) {
+    let newComponentlength = Math.round(Math.random() * 100);
+    //this.matriosca.sellingPeriods.forEach(sellingPeriod => sellingPeriod.subPeriods.forEach(subPeriod => subPeriod.components.forEach(component => component.length+1)));
+    for (let i = 0; i < this.matriosca.sellingPeriods.length; ++i) {
+      for (let l = 0; l < this.matriosca.sellingPeriods[i].subPeriods.length; ++l) {
+        // for (let c = 0; c < this.matriosca.sellingPeriods[i].subPeriods[l].components.length; ++c) {
+        //   this.matriosca.sellingPeriods[i].subPeriods[l].components[c].length = this.matriosca.sellingPeriods[i].subPeriods[l].components[c].length + 1;
+        // }
+        //this.matriosca.sellingPeriods[i].subPeriods[l].components = this.matriosca.sellingPeriods[i].subPeriods[l].components as any;  // Array<PPCompositionTabelComponent>
+        /** /
+        this.matriosca.sellingPeriods[i].subPeriods[l].components = Object.keys(this.matriosca.sellingPeriods[i].subPeriods[l].components).map((index: string) => {
+          let component = this.matriosca.sellingPeriods[i].subPeriods[l].components[parseInt(index)];
+          return component;
+        });
+        /**/
+        let newComponent: any = { // PPCompositionTabelComponent
+          "sellingPeriosId": "1",
+          "subPeriodId": "subPeriods_1",
+          "id": "1.1",
+          "channel": {
+            "id": "C5",
+            "code": "string",
+            "description": "canale5"
+          },
+          "logicalEnvironment": {
+            "id": "Forum",
+            "code": "string",
+            "description": "Forum"
+          },
+          "stdProduct": {
+            "id": "100",
+            "code": "string",
+            "description": "asdfghjkl"
+          },
+          "partitionType": {
+            "id": "100",
+            "code": "string",
+            "description": "ertyuio"
+          },
+          "positionType": {
+            "id": "456",
+            "code": "string",
+            "description": "zxcvbnm"
+          },
+          "length": 11,
+          "noOfSpots": 10,
+          "rateCard": 5
+        } as any;
+        newComponent.length = newComponentlength;
+        // Add last
+        //this.matriosca.sellingPeriods[i].subPeriods[l].components.concat(newComponent);
+        this.matriosca.sellingPeriods[i].subPeriods[l].components.push(newComponent);
+        //this.matriosca.sellingPeriods[i].subPeriods[l].components = [newComponent, ...this.matriosca.sellingPeriods[i].subPeriods[l].components];
+        /**/
+      }
+    }
+  }
+
+  trackById(index: any, item: any) {
+    console.log('trackById - container', index, item);
+    return item.id;
   }
 
   private computeBufferBWNumber(){

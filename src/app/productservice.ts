@@ -12,9 +12,19 @@ export class ProductService {
 
     status: string[] = ['OUTOFSTOCK', 'INSTOCK', 'LOWSTOCK'];
 
+    //
+    private matrioscaBuffer: Matriosca[] = [];
+    private initialMatriosca: Matriosca = {
+        id: '',
+        sellingPeriods: []
+    };
+    private matriosca = new BehaviorSubject<Matriosca>(this.initialMatriosca);
+    public matriosca$ = this.matriosca.asObservable();
+    //
     private initialBufferPage: number = 0;
     private bufferPage = new BehaviorSubject<number>(this.initialBufferPage);
     public bufferPage$ = this.bufferPage.asObservable();
+    //
 
     productNames: string[] = [
         "Bamboo Watch",
@@ -51,14 +61,19 @@ export class ProductService {
 
     constructor(private http: HttpClient) { }
 
-
   getMatrioscaData() {
     return this.http.get<any>('assets/data-table-composition.json')
       .toPromise()
       .then(res => <Matriosca>res)
-      .then(data => { return data; });
+      .then(data => { this.matrioscaBuffer.push(data); return data; });
   }
 
+  getMatrioscaDataObservable() {
+    return this.http.get<any>('assets/data-table-composition.json')
+      .toPromise()
+      .then(res => <Matriosca>res)
+      .then(data => { this.matriosca.next(data) });
+  }
 
   setBufferPage(page: number){
       this.bufferPage.next(page);

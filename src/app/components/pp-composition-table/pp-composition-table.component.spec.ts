@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BroadcastWeekComponent } from './broadcast-week.component';
+import { PPCompositionTabelComponent } from './pp-composition-table.component';
 
-describe('BroadcastWeekComponent', () => {
-  let component: BroadcastWeekComponent;
-  let fixture: ComponentFixture<BroadcastWeekComponent>;
+describe('PPCompositionTabelComponent', () => {
+  let component: PPCompositionTabelComponent;
+  let fixture: ComponentFixture<PPCompositionTabelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BroadcastWeekComponent ]
+      declarations: [ PPCompositionTabelComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BroadcastWeekComponent);
+    fixture = TestBed.createComponent(PPCompositionTabelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

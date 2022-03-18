@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompositionComponent } from './composition.component';
+import { PPSaleabilityFormComponent } from './pp-salebility-form.component';
 
-describe('CompositionComponent', () => {
-  let component: CompositionComponent;
-  let fixture: ComponentFixture<CompositionComponent>;
+describe('PPSaleabilityFormComponent', () => {
+  let component: PPSaleabilityFormComponent;
+  let fixture: ComponentFixture<PPSaleabilityFormComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CompositionComponent ]
+      declarations: [ PPSaleabilityFormComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CompositionComponent);
+    fixture = TestBed.createComponent(PPSaleabilityFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

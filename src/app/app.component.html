@@ -1,8 +1,28 @@
 <div class="toolbar" role="banner">
   <h1>Demo Prodotto Pacchetto</h1>
 </div>
-
 <div class="content" role="main">
+  <!---- >
+  <app-table-left
+  [(value1)]="validityStartIndex"
+  [(value2)]="validityStartIndex"
+  [(value3)]="validityStartIndex"
+  [(value4)]="validityStartIndex"
+  [(value5)]="validityStartIndex"
+  [(value6)]="validityStartIndex"
+  [(value7)]="validityStartIndex"
+  [(value8)]="validityStartIndex"
+  [(value9)]="validityStartIndex"
+  [(value10)]="validityStartIndex"
+  [(value11)]="validityStartIndex"
+  [(value12)]="validityStartIndex"
+  [(value13)]="validityStartIndex"
+  [(value14)]="validityStartIndex"
+  [(value15)]="validityStartIndex"
+  [(value16)]="validityStartIndex"
+>
+</app-table-left>
+  <!---->
   <!-- Custom Carousel - start -->
   <div id="pr_id_1" class="p-carousel p-component p-carousel-horizontal">
     <button (click)="cCarouselLeft($event)">&lt;</button> - <button (click)="cCarouselNone($event)">Reset</button> - <button (click)="cCarouselRight($event)">&gt;</button><br>
@@ -10,19 +30,46 @@
     <button class="btnLeft">Click me</button> - <button class="btnRight">Click me</button><br><!-- IE7+ :focus :active :checked -- >
     <label for="iLeft">&lt;</label><input id="iLeft" class="iLeft visually-hidden" type="checkbox"> - <label for="iRight">&gt;</label><input id="iRight" class="iRight visually-hidden" type="checkbox"><br><!-- IE9+ :checked -->
     <!---->
+    <button (click)="addComponentRow($event)">+</button><br>
     <div class="p-carousel-items-content">
       <div class="p-carousel-items-container transition-default">
-        <ng-container *ngFor="let sellingPeriod of matriosca.sellingPeriods">
-          <div class="p-carousel-item">
-            <p-accordion>
-              <p-accordionTab header="Header I" [selected]="true">
-                <app-puffo-blu [sellingPeriod]="sellingPeriod"></app-puffo-blu>
-              </p-accordionTab>
-            </p-accordion>
-          </div>
+        <!---- >
+        <ng-container *ngFor="let sellingPeriod of matriosca.sellingPeriods; let i = index; trackBy: trackById">
+          <pp-composition-table [compositionRows]="subPeriod.components"></pp-composition-table>
         </ng-container>
+        <!-- Note: refresh row - start -->
+        <ng-container *ngFor="let sellingPeriod of matriosca.sellingPeriods; trackBy: trackById"><!-- let i = index; -->
+          <div *ngFor="let subPeriod of sellingPeriod.subPeriods; trackBy: trackById">
+            <pp-subperiod-section [subPeriodId]="subPeriod.id"></pp-subperiod-section>
+            <br><br>hh<br><!-- {{ subPeriod | json }} -->
+            <!---- ><pp-subperiod-section></pp-subperiod-section><!-- pp-subperiod -->
+            <pp-composition-table [compositionRows]="subPeriod.components"></pp-composition-table>
+            <br><br>jj<br>
+          </div>
+        </ng-container><br><br>
+        <!-- Note: refresh row - end -->
+        <!-- Note: refresh div - start -->
+        <div *ngIf="false">
+          <ng-container *ngFor="let sellingPeriod of matriosca.sellingPeriods; trackBy: trackById"><!-- let i = index; -->
+            <div class="p-carousel-item">
+              <br><br>qq0<br>
+              <pp-salebility-form [sellingPeriod]="sellingPeriod"></pp-salebility-form><!-- matriosca.sellingPeriods[i] -->
+              <br><br>qq9<br>
+              <br><br>
+              <!---- >
+              <p-accordion>
+                <p-accordionTab header="Header I" [selected]="true">
+                  <pp-salebility-form [sellingPeriod]="sellingPeriod"></pp-salebility-form>
+                </p-accordionTab>
+              </p-accordion>
+              <!---->
+            </div>
+          </ng-container>
+        </div>
+        <!-- Note: refresh div - end -->
       </div>
     </div>
+    <button (click)="addComponentRow($event)">+</button><br>
   </div>
   <!---->
   <style>
