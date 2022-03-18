@@ -3,6 +3,7 @@ import {OwlOptions, SlidesOutputData} from 'ngx-owl-carousel-o';
 import {ProductService} from './productservice';
 import {Product2} from './product2';
 import {SellingPeriod} from "./BEData";
+import {Matriosca} from "./CompositionData";
 
 @Component({
   selector: 'app-root',
@@ -83,10 +84,16 @@ export class AppComponent implements OnInit {
       }
     ];
 
+  public matriosca: Matriosca;
+
   private beData: SellingPeriod[] = [];
   private durataVendibilita = 2; // indica il numero di sottoperiodi per singola vendibilità
 
   constructor(private productService: ProductService, private ref: ChangeDetectorRef) {
+    this.matriosca = {
+      id: '',
+      sellingPeriods: []
+    };
 
     this.responsiveOptions = [
       {
@@ -162,6 +169,7 @@ export class AppComponent implements OnInit {
       }
     }
   }
+
   cCarouselRight($event: any) {
     //transform: translate3d(-50%, 0px, 0px);
     const classes = this.cCarouselGetClassListByClass('transition-default');
@@ -210,6 +218,10 @@ export class AppComponent implements OnInit {
 
     this.productService.bufferPage$.subscribe((page: number) => {
       this.bufferPage = page;
+    });
+
+    this.productService.getMatrioscaData().then( (matriosca: Matriosca) => {
+      this.matriosca = matriosca;
     });
   }
 

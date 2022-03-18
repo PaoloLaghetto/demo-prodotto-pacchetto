@@ -14,12 +14,20 @@ import {ButtonModule} from 'primeng/button';
 import {ToastModule} from 'primeng/toast';
 import {CarouselModule} from "ngx-owl-carousel-o";
 import { CompositionComponent } from './components/composition/composition.component';
+import { PuffoBluComponent } from './components/puffo-blu/puffo-blu.component';
+import { SellingPeriodComponent } from './components/selling-period/selling-period.component';
+import { BroadcastWeekContainerComponent } from './components/broadcast-week-container/broadcast-week-container.component';
+import { BroadcastWeekComponent } from './components/broadcast-week/broadcast-week.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    CompositionComponent
+    CompositionComponent,
+    PuffoBluComponent,
+    SellingPeriodComponent,
+    BroadcastWeekContainerComponent,
+    BroadcastWeekComponent
   ],
   imports: [
     BrowserModule,

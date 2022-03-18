@@ -5,6 +5,7 @@ import { Product } from './product';
 import {CarouselData} from "./CarouselData";
 import {BEData} from "./BEData";
 import {BehaviorSubject, Subject} from "rxjs";
+import {Matriosca} from "./CompositionData";
 
 @Injectable()
 export class ProductService {
@@ -49,6 +50,15 @@ export class ProductService {
     ];
 
     constructor(private http: HttpClient) { }
+
+
+  getMatrioscaData() {
+    return this.http.get<any>('assets/data-table-composition.json')
+      .toPromise()
+      .then(res => <Matriosca>res)
+      .then(data => { return data; });
+  }
+
 
   setBufferPage(page: number){
       this.bufferPage.next(page);

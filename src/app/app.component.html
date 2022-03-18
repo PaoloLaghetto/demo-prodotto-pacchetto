@@ -12,28 +12,11 @@
     <!---->
     <div class="p-carousel-items-content">
       <div class="p-carousel-items-container transition-default">
-        <ng-container *ngFor="let sellingPeriod of carouselBuffer">
+        <ng-container *ngFor="let sellingPeriod of matriosca.sellingPeriods">
           <div class="p-carousel-item">
             <p-accordion>
               <p-accordionTab header="Header I" [selected]="true">
-                ID = {{sellingPeriod.id}}
-                <app-form *ngFor="let subPeriod of sellingPeriod.subPeriods"
-                  [(value1)]="subPeriod.value"
-                  [(value2)]="subPeriod.value"
-                  [(value3)]="subPeriod.value"
-                  [(value4)]="subPeriod.value"
-                  [(value5)]="subPeriod.value"
-                  [(value6)]="subPeriod.value"
-                  [(value7)]="subPeriod.value"
-                  [(value8)]="subPeriod.value"
-                  [(value9)]="subPeriod.value"
-                  [(value10)]="subPeriod.value"
-                  [(value11)]="subPeriod.value"
-                  [(value12)]="subPeriod.value"
-                  [(value13)]="subPeriod.value"
-                  [(value14)]="subPeriod.value"
-                  [(value15)]="subPeriod.value"
-                  [(value16)]="subPeriod.value"></app-form>
+                <app-puffo-blu [sellingPeriod]="sellingPeriod"></app-puffo-blu>
               </p-accordionTab>
             </p-accordion>
           </div>

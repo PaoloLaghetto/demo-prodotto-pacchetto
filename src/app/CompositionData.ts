@@ -52,7 +52,7 @@ export interface SellingPeriod {
   subPeriods: SubPeriod[];
 }
 
-export interface Validity {
+export interface Matriosca {
   id: string;
   sellingPeriods: SellingPeriod[];
 }
